@@ -4,6 +4,8 @@ from sqlalchemy.orm import sessionmaker
 
 from app.config import DATABASE_URL
 
+if not DATABASE_URL:
+    raise ValueError("DATABASE_URL no definida")
 
 engine = create_engine(
     DATABASE_URL,
