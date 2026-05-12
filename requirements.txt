@@ -2,5 +2,9 @@ python-telegram-bot
 APScheduler
 python-dotenv
 SQLAlchemy
+<<<<<<< HEAD
 psycopg[binary]
 pytz
+=======
+psycopg[binary]
+>>>>>>> aa583fe (fix railway db driver)
