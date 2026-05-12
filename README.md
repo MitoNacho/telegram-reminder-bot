@@ -341,19 +341,6 @@ Confirma el recordatorio
 
 ---
 
-# 🔮 Mejoras Futuras
-
-* ✏️ Editar recordatorios
-* 🗑️ Eliminar recordatorio individual
-* 📆 Integración calendario
-* 🌍 Multiidioma
-* 🔔 Intervalos personalizados
-* 📱 Inline keyboards
-* 🧠 Procesamiento lenguaje natural
-* 📊 Dashboard administrador
-* 🔐 Sistema autenticación
-
----
 
 # 🧑‍💻 Workflow Desarrollo
 
@@ -367,7 +354,7 @@ Railway redeploya automáticamente tras cada push.
 
 ---
 
-# 📚 Qué demuestra este proyecto
+# 📚 Qué puedes aprender con este proyecto
 
 Este proyecto demuestra:
 
