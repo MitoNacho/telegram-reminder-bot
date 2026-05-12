@@ -72,8 +72,18 @@ def delete_reminder_by_id(
     )
 
     if reminder:
+
+        print(
+            f"🗑️ Eliminando reminder ID {reminder_id}"
+        )
+
         session.delete(reminder)
+
         session.commit()
+
+        print(
+            f"✅ Reminder eliminado DB {reminder_id}"
+        )
 
 
 def get_all_reminders(
