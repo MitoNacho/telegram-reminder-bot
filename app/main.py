@@ -116,11 +116,16 @@ def main():
         },
 
         fallbacks=[
-            CommandHandler(
-                "cancel",
-                cancel_command
-            )
-        ]
+    CommandHandler(
+        "cancel",
+        cancel_conversation
+    ),
+
+    MessageHandler(
+        filters.Regex("^❌ Cancelar$"),
+        cancel_conversation
+    )
+]
     )
 
     application.add_handler(
