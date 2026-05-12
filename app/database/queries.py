@@ -59,3 +59,24 @@ def count_user_reminders(
         .filter(Reminder.telegram_id == telegram_id)
         .count()
     )
+
+
+def delete_reminder_by_id(
+    session: Session,
+    reminder_id: int
+):
+    reminder = (
+        session.query(Reminder)
+        .filter(Reminder.id == reminder_id)
+        .first()
+    )
+
+    if reminder:
+        session.delete(reminder)
+        session.commit()
+
+
+def get_all_reminders(
+    session: Session
+):
+    return session.query(Reminder).all()
