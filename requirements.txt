@@ -1,5 +1,5 @@
 python-telegram-bot
 APScheduler
-SQLAlchemy
 python-dotenv
-psycopg
+SQLAlchemy
+psycopg[binary]
