@@ -3,3 +3,4 @@ APScheduler
 python-dotenv
 SQLAlchemy
 psycopg[binary]
+pytz
